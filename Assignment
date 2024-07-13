@@ -1,0 +1,167 @@
+Here are the answers to your questions:
+
+### 1. Seating Delegates with Two Together
+To treat the two particular delegates as a single unit:
+- This gives us 24 units to arrange (the pair + 23 others).
+- Arrangements = \(23! \times 2!\) (because the pair can be arranged in 2 ways).
+
+**Answer:** **B. 2! × 23!**
+
+---
+
+### 2. Seating 5 Boys and 4 Girls Alternately
+Since there are more boys than girls, the arrangement starts and ends with a boy:
+- There are 5 boys arranged in \(5!\) ways and 4 girls arranged in \(4!\) ways.
+
+**Answer:** **C. 4! × 5!**
+
+---
+
+### 3. Arranging the Letters of "LEADER"
+The word "LEADER" has 6 letters with 'E' repeating twice:
+\[
+\text{Arrangements} = \frac{6!}{2!} = \frac{720}{2} = 360
+\]
+
+**Answer:** **C. 360**
+
+---
+
+### 4. Drawing 3 Balls with at Least One Black Ball
+Total combinations minus those without black balls:
+1. Total ways to choose 3 balls from 9 (2 white + 3 black + 4 red):
+   \[
+   \binom{9}{3} = 84
+   \]
+2. Combinations with no black balls (only from white and red):
+   \[
+   \binom{6}{3} = 20
+   \]
+3. Therefore, combinations with at least one black ball:
+   \[
+   84 - 20 = 64
+   \]
+
+**Answer:** **C. 64**
+
+---
+
+### 5. Forming Numbers Greater than a Million
+Valid combinations (cannot start with 0):
+1. Choose a leading digit from {2, 3, 4} (3 choices).
+2. Arrange the remaining 6 digits.
+
+Total arrangements considering the repetition of '3':
+\[
+\text{Permutations} = \frac{6!}{4!} = 30
+\]
+Thus, total combinations:
+\[
+3 \times 30 = 90
+\]
+**Answer:** **Not directly listed, please check calculations.**
+
+---
+
+### 6. Choosing Stationery Items
+Choices for writing a letter:
+- 6 types of note papers, 7 types of ink-stands, 4 types of pens:
+\[
+6 \times 7 \times 4 = 168
+\]
+
+**Answer:** **168**
+
+---
+
+### 7. Different Words from "SCISSORS"
+The word "SCISSORS" has 8 letters with 'S' repeated 3 times:
+\[
+\text{Arrangements} = \frac{8!}{3!} = \frac{40320}{6} = 6720
+\]
+
+**Answer:** **None of these (since options do not reflect correct calculation).**
+
+---
+
+### 8. Traveling in Two Cars
+Choosing 5 students for the first car from 8:
+\[
+\text{Ways to choose} = \binom{8}{5} = 56
+\]
+Arranging them:
+\[
+5! \text{ (for car 1)} \times 3! \text{ (for car 2)} = 56 \times 120 \times 6 = 40320
+\]
+
+**Answer:** **D. 3920**
+
+---
+
+### 9. Posting 10 Letters in 5 Post Boxes
+Each letter can go into any of the 5 boxes:
+\[
+5^{10}
+\]
+
+**Answer:** **A) 5^{10}**
+
+---
+
+### 10. Seating 15 People at Two Round Tables
+Choose 8 people for one table (the rest go to the other):
+\[
+\text{Ways} = \binom{15}{8} \times 7! \times 6!
+\]
+
+**Answer:** **D. 2*(15C7)*6!*7!**
+
+---
+
+### 11. Arranging EDUCATION with Relative Positions
+There are 4 vowels (E, U, A, I) and 5 consonants:
+\[
+\text{Arrangements} = 4! \times 5!
+\]
+
+**Answer:** **C. 4! × 5!**
+
+---
+
+### 12. Arranging Brothers with One Person Between
+Fixing the two brothers with one person in between:
+\[
+\text{Ways} = 2 \times 19!
+\]
+
+**Answer:** **A) 2 * 19!**
+
+---
+
+### 13. Selecting Principal and Vice-Principals
+Choose 1 principal from 2 candidates and 2 vice-principals from 4 candidates:
+\[
+\text{Combinations} = 2 \times \binom{4}{2} = 2 \times 6 = 12
+\]
+
+**Answer:** **B. 12**
+
+---
+
+### 14. Seating 5 Friends for a Photograph
+5 friends can be arranged in 5 chairs:
+\[
+5! = 120
+\]
+
+**Answer:** **A. 120 ways**
+
+---
+
+### 15. Lighting 12 Bulbs
+Each bulb can be either on or off (2 options). Thus, total combinations minus the "off" situation:
+\[
+2^{12} - 1
+\]
+
+**Answer:** **C. 2^{12} - 1**
